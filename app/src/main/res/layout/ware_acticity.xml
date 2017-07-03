@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ware_acticity"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <GridView
+        android:id="@+id/wareGrid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:horizontalSpacing="2pt"
+        android:numColumns="2"
+        android:verticalSpacing="10pt" />
+
+    <ImageView
+        android:id="@+id/testImage"
+        android:layout_width="80pt"
+        android:layout_height="80pt" />
+</LinearLayout>
