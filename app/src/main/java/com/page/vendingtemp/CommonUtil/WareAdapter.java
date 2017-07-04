@@ -84,6 +84,7 @@ public class WareAdapter extends BaseAdapter {
             view = gridContainer.inflate(R.layout.ware_grid, null);
         }
         ImageView iv = view.findViewById(R.id.wareImage);
+        ImageView sellout = view.findViewById(R.id.wareSellout);
         TextView tv = view.findViewById(R.id.wareName);
         TextView tv2 = view.findViewById(warePrice);
         final Bitmap[] bitmap = new Bitmap[jdata.length()];
@@ -95,9 +96,11 @@ public class WareAdapter extends BaseAdapter {
             String num = "(有货)";
             if (wareObject.getInt("stockNumNow") == 0) {
                 num = "(无货)";
+                sellout.setImageResource(R.drawable.sellout);
             }
+            String price = String.valueOf(wareObject.getInt("price")/100.00);
             tv.setText(wareObject.getString("wareName") + num);
-            tv2.setText(wareObject.getString("price"));
+            tv2.setText(price);
         } catch (Exception e) {
             Log.w(TAG, "设置图片失败");
         }

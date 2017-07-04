@@ -3,6 +3,7 @@
     android:id="@+id/ware_acticity"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
+    android:background="@drawable/intro_back"
     android:gravity="center_horizontal"
     android:orientation="vertical">
 
@@ -12,11 +13,6 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:horizontalSpacing="2pt"
-        android:numColumns="2"
+        android:numColumns="3"
         android:verticalSpacing="10pt" />
-
-    <ImageView
-        android:id="@+id/testImage"
-        android:layout_width="80pt"
-        android:layout_height="80pt" />
 </LinearLayout>

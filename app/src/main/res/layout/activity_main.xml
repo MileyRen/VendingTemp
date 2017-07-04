@@ -3,17 +3,18 @@
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:gravity="left|center_horizontal">
+    android:orientation="horizontal"
+    android:gravity="bottom|center_horizontal"
+    android:background="@drawable/intro_back">
 
     <Button
         android:id="@+id/wares_btn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/show_wares"/>
+        android:layout_width="@dimen/frontImageSize"
+        android:layout_height="@dimen/frontImageSize"
+        android:background="@drawable/buy_up"/>
     <Button
         android:id="@+id/exchange_bth"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/exchange_btn"/>
+        android:layout_width="@dimen/frontImageSize"
+        android:layout_height="@dimen/frontImageSize"
+        android:background="@drawable/get_up"/>
 </LinearLayout>

@@ -3,4 +3,11 @@
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
     <dimen name="fontSize">16dp</dimen>
+    <dimen name="fontHeight">20pt</dimen>
+    <dimen name="margin">10pt</dimen>
+    <dimen name="selected_fontSize">20dp</dimen>
+
+    <dimen name="frontImageSize">50pt</dimen>
+    <dimen name="commitImage">80pt</dimen>
+    <dimen name="gridImageSize">80pt</dimen>
 </resources>

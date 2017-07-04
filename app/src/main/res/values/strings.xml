@@ -3,5 +3,6 @@
 
     <string name="show_wares">显示商品列表</string>
     <string name="exchange_btn">兑换商品</string>
+    <string name="pay_btn">支付</string>
 
 </resources>
